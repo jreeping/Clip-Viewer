@@ -1,0 +1,28 @@
+.center {
+    text-align: center;
+}
+.btn {
+    float: right;
+    background: #ffffff none repeat scroll 0 0;
+    border: 1px solid #21d8cf;
+    color: #21d8cf;
+    outline: medium none;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.contain {
+    display: flexbox;
+    height: 400px;
+    width: 850px;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.pictures{
+    display: inline-flex;
+    height: 100px;
+    width: 200px;
+    justify-content: space-between;
+}

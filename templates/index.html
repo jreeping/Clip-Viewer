@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type=text/css href="{{ url_for('static', filename='style.css') }}">
+    <title>Clip Viewer </title>
+</head>
+<body>
+    <a href="/login" class="btn btn-success">Login</a>
+    <a href="/signup" class="btn btn-success">Sign-Up</a>
+        <div class="center">
+            <h1>Your One-Stop Clip Viewer</h1>
+        </div>
+      
+    <div class="center">
+        <h2> All Your Clips in the Same Place</h2>
+    </div>
+    <div class="contain">
+        <div class="pictures">
+            <img src="{{ url_for('static', filename='/pictures/apex.jpg') }}" alt="Apex Legends">
+        </div>
+        <div class="pictures">
+            <img src="{{ url_for('static', filename='/pictures/cod.jpg') }}" alt="Call Of Duty">
+        </div>
+        <div class="pictures">
+            <img src="{{ url_for('static', filename='/pictures/valorant.jpg') }}" alt="Valorant">
+        </div>
+        <div class="pictures">
+            <img src="{{ url_for('static', filename='/pictures/csgo.jpg') }}" alt="Valorant">
+        </div>
+    </div>
+    
+</body>
+</html>
